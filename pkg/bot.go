@@ -17,7 +17,7 @@ import (
 )
 
 const userSymbol = "👤"
-const ballSymbol = "⚽️"
+const ballSymbol = "🍕"
 const shitSymbol = "💩"
 
 // HelpMessage - show help message.
@@ -64,13 +64,13 @@ type Vote struct {
 func (b *Bot) getButtons() (*tb.InlineButton, *tb.InlineButton) {
 	yesBtn := tb.InlineButton{
 		Unique: fmt.Sprintf("yes_%d", b.Unique),
-		Text:   "Да",
+		Text:   "Так",
 		Data:   "1",
 	}
 
 	noBtn := tb.InlineButton{
 		Unique: fmt.Sprintf("no_%d", b.Unique),
-		Text:   "Нет",
+		Text:   "Ні",
 		Data:   "0",
 	}
 

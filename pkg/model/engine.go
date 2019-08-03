@@ -36,7 +36,7 @@ func GetEngine() *Engine {
 		host = os.Getenv("DB_HOST")
 		port = os.Getenv("DB_PORT")
 
-		dbName = "wl_football_bot"
+		dbName = "pizza_vote_bot"
 
 		options = strings.Join(
 			[]string{
