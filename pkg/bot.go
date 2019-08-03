@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/k33nice/vote-bot/pkg/model"
+	"github.com/unsigned6/vote-bot/pkg/model"
 	"github.com/pkg/errors"
 	tb "gopkg.in/tucnak/telebot.v2"
 )
